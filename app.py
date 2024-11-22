@@ -8,7 +8,7 @@ def Gen_Eff(V, CL, IL, K, Rsh, Ra):
     return Eff, CUL
 
 st.title("2205A21012-PS12")
-st.title("calculate the efficiency of Dc shunt motor at various loads")
+st.write("calculate the efficiency of Dc shunt motor at various loads")
 
 # Create columns for inputs and outputs
 col1, col2 = st.columns(2)
